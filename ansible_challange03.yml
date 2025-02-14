@@ -1,6 +1,6 @@
 ---
 - name: Setup 1GB partition with XFS filesystem on second physical drive
-  hosts: all
+  hosts: server2
   become: yes
   tasks:
     - name: Create 1GB partition on /dev/sdb
