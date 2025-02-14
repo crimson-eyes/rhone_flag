@@ -35,7 +35,6 @@
         src: /dev/nvme1n1p1
         fstype: xfs
         state: mounted
-        fstab: yes
 
     - name: Set the correct ownership on the mount point
       ansible.builtin.file:
